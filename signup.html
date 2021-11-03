@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/03fcf58f12.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <!-- section 1 -->
+  <section class="header">
+    <div class="container">
+         <img src="img/logo.jpeg"> 
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active " href="#">Contact <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link  active "  href="login.html">Login</a>
+                <a class="nav-item nav-link  active " href="#">Review</a>
+                <a class="nav-item nav-link  active " href="signup.html" tabindex="-1" aria-disabled="true">Signup</a>
+              </div>
+            </div>
+          </nav>
+
+         
+    </div>
+    <br>
+</section>
+
+  <!-- sectio sign up -->
+    <section class="signup">
+        <div class="row">
+            <div class="col-md-12">
+              <button type="submit" class="button" ><i class="fab fa-facebook"></i> Sigin with facebook</button>
+
+
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="first name">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="last name">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>kerala</option>
+                        <option>Tamilnadu</option>
+                        <option>Karnataka</option>
+                        <option>Goa</option>
+                        <option>Gujarat</option>
+                        <option>Maharastra</option>
+
+                      </select>
+                    </div>
+                  
+                   
+                  </form>
+                    <!-- <button type="submit" class="btn btn-dark"><a href="index.html"></a> in</button>  -->
+                     <button  type="submit" class="btn btn-dark   "> Sign up</button>  
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
